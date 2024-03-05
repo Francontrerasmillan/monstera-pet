@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: nunito ;
+}
+/*Estilo grilla*/
+.grilla{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:auto auto auto;
+    grid-template-areas: "header header"
+                          "main main"
+                          "footer footer";
+}
+@media screen  and (max-width:768px) {
+    
+    .grilla{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "header"
+                              "main "
+                              "footer";
+         }   
+        }
+
+
+
+h3{
+    color: white;
+    font-size: large;
+    font-weight: 400;
+}
+
+h4{
+    color: #4e123a;
+    font-size: medium;
+    font-weight: 800;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+
+     
+       /*Estilo Header*/ 
+
+.header{
+    grid-area: header;
+    position: sticky;
+    top: 0;
+    background-color: #3c7563b4 ;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    
+    .padreLogo{
+        width: 28%;
+        margin-left: 30px;
+    }
+    .logo{
+        width: 100px;
+    }
+    
+    .navegacion{
+        width: 68%;
+        .listaNav {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+                .listaItem {
+                    margin-right: 20px;
+                .linkNav{
+                    color:#4e123a;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                }
+            }
+    }
+}
+
+}
+@media screen  and (max-width:768px) {
+              
+    .header{ 
+        width: 100%;
+        flex-direction: column;
+                             
+        .padreLogo{
+            width: initial;
+            margin-left: initial;
+      }
+        .logo{
+            width: 100px;
+        }
+        
+        .navegacion{
+            width:initial;
+            .listaNav {
+                    .listaItem {
+                    margin-right: 20px;
+                    .linkNav{
+                       font-size: 1rem;
+                                                    
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/*Estilo Main index*/
+    
+.mainIndex{
+    grid-area: main;
+    .seccionTitulo{
+       padding: 100px;
+            color: #ffffff;
+        line-height: 1.5;
+        background-image: url(../assets/img/gato\ con\ plantas_consejos.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        width:100%;
+        height:100%;
+        height: 100vh;
+        text-align: center;
+    .tituloPrincipal{
+            background-color: #b8855600;
+            color: #ffffff;
+            font-size: 3rem;
+            font-weight: 700;
+            margin: 20px;
+            padding:20px ;
+            text-align: center;
+         .grosorFuenteLight{
+                font-size: 2rem;
+                font-weight: 600 ; 
+         }  
+        }
+   .parrafoMain{
+            background-color: #4a7b4b;
+            color: #ffffff;
+            width:700px ;
+            font-size: medium;
+            font-weight: 300;
+            text-align: center;
+            margin-left: 300px;
+            border-radius: 5px;
+   }
+}
+    .linkEncuentranosIndex{
+            box-sizing: content-box;
+            display: inline-block;
+            background-color: #b88556;
+            width:120px;
+            color:white;
+            text-decoration: none;
+            border:1px solid white;
+            text-align: center;
+            padding:10px;
+            margin-top:30px;
+            border-radius: 5px;
+    }
+        }
+    
+    .seccionTarjetas{
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            background-color: #ffffff;
+        .tituloSeccionTarjetasIndex{
+                color: #ffffff;
+                background-color:#2d5548 ;
+                font-size: x-large;
+                font-weight: 400;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+
+    }
+    .contenedorTarjetas{
+        display: flex;
+        justify-content: space-evenly   ;
+        .tarjetas{
+            width: 200px;
+        height: 300px;
+        background-color: #b88556;
+        color: white;
+        font-size: medium;
+        padding: 20px 10px;
+        margin: 30px;
+        border-radius: 5px;
+        .imgTarjetas{
+            width: 100%;
+            height: 80%;
+            object-fit: contain;
+            padding: 5px;
+            border-radius: 10px;
+                }
+
+    }
+    
+    }
+}
+
+
+@media screen  and (max-width:768px) {
+
+        .mainIndex{
+            .seccionTitulo{
+                padding: 10px;
+                height: 50vh;
+                text-align: left;
+             .tituloPrincipal{
+                     width: 450px;
+                     font-size: 1.5rem;
+                     font-weight: 700;
+                     padding:5px ;
+                     margin-top: 5px;
+                     text-align: left;
+                  .grosorFuenteLight{
+                         font-size: 1rem;
+                         font-weight: 600 ; 
+                  }
+                }
+            .parrafoMain{
+                     width:450px ;
+                     font-size: small;
+                     text-align: center;
+                     padding-left: 10px;
+                     margin-left: 10px;
+                    
+            }
+            
+             .linkEncuentranosIndex{
+                   
+                     text-align: center;
+                     padding-top:10px;
+                     margin:10px;
+             }
+            }
+             .seccionTarjetas{                
+                 .tituloSeccionTarjetasIndex{
+                         text-align: center;
+                         font-size: 1rem;
+             }
+             .contenedorTarjetas{
+                flex-wrap: wrap;
+                 justify-content:center   ;
+                 .tarjetas{
+                     width: 200px;
+                    height: 300px;
+                 .imgTarjetas{
+                     width: 100%;
+                     height: 80%;
+                     object-fit: contain;
+                     padding: 10px;
+                         }
+         
+             }
+             
+             }
+         }
+
+        }
+    }
+
+
+
+
+/*Estilo footer*/
+.footerIndex{
+    grid-area: footer;
+    padding: 20px;
+    background-color: #3c7563;
+    color: #ffffff;
+    .copy{
+        margin-top:30px;
+        width:38%;
+        p{ 
+            font-weight: 300;
+            font-size:0.8rem;
+            color:white;
+            text-align: center;
+        }
+    }
+        .contenedorFooter{
+        margin-bottom: 10px;
+        display:flex;
+        justify-content:space-evenly;
+        gap:10px;
+                                   
+        .listaNavFooter{
+            list-style: none;
+            text-align: left;
+            text-decoration: none;
+              .linkNavFooter{
+              color: white;
+              text-decoration: none;
+              font-size: 1rem;
+              margin: 20px
+             }
+            }
+            .logoFooter{
+                width: 150px;
+            }
+            .casaMatriz{
+                .mapa{
+                    border-radius: 5px;
+                   
+                }
+            .parrafoFooter{
+                    background-color: rgba(0, 128, 0, 0);
+                    color: rgb(255, 255, 255);
+                    text-align:left;
+                    margin:10px ;
+                    font-size: medium;
+                    font-weight: 300;
+                }
+            }
+        
+        .suscribete{
+                   
+            .suscribirme{
+                display: inline-block;
+                align-items: center;
+                justify-content: center;
+                vertical-align: middle;
+                padding: 10px;
+                border-radius: 5px;
+                font-size: 0.8rem;
+                background-color: #b88556;
+                width:120px;
+                color:white;
+                text-decoration: none;
+                border:1px solid white;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 300;
+            }
+                .emailFooter{
+                        box-sizing: content-box;
+                        display: inline-flex;
+                        font-size: 0.8rem;
+                        background-color: #ffffff;
+                        width: 200px;
+                        color:#151414;
+                        text-decoration: none;
+                        border:1px solid #b88556;
+                        border-radius: 5px;
+                        text-align: center;
+                        padding:10px;
+                        vertical-align: middle;
+                        font-weight: 500;
+              
+                }
+            }
+        }
+           
+        .fa-instagram{
+        color: #2be2b4;
+        font-size: 3rem;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        }
+
+        .fa-facebook{
+        color: blue;
+        font-size:3rem ;
+    
+    }
+}
+
+@media screen  and (max-width:768px) {
+    .footerIndex{
+        
+        padding: 20px;
+     
+            .contenedorFooter{
+           flex-wrap: wrap;
+            gap:10px;
+            flex-direction: column;
+                                  
+                  
+        }
+    }
+        
+    
+}
+
+
+
+    
+
+
+    
