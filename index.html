@@ -14,7 +14,7 @@
                 <nav class="navbar navbar-expand-lg navbar-dark bgNavegacion">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="#">
-                       <img src="./assets/img/logo-png.png" alt="Logo" width="50" height="50">
+                       <img src="./assets/img/logo-png.png" alt="Logo" width="80" height="80">
                       </a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -54,39 +54,74 @@
                     </ul>
                 </nav> -->
             </header>
-            <main class="mainIndex">
-                <section  class="seccionTitulo">
-                    <h1 class="tituloPrincipal"> <span class="grosorFuenteLight">MONSTERA PET</span> <br> Donde el amor por las plantas y las mascotas se unen</h1>  
-                    <p class="parrafoMain" >Somos un proyecto familiar, donde combinamos el amor y dedicación que tenemos por las plantas y por las mascotas. <br> Aquí encontraras información sobre el cuidado de ambos, además si quieres adquirir alguno de nuestros <br> productos lo puedes hacer directo en nuestro Instagram (click en el icono). <br> Esperamos que te guste nuestra página y bienvenidos.</p>
-                    <a class="linkEncuentranosIndex" href="#footer">Encuéntranos</a>  
+            <main class="mainIndex container-fluid">
+                <section  class="seccionTitulo text-center  bgFotoMain pt-5 ">
+                    <h1 class="tituloPrincipal pt-5"> <span class="grosorFuenteLight pt-5">MONSTERA PET</span> <br> Donde el amor por las plantas y las mascotas se unen</h1>  
+                    <p class="parrafoMain pt-5" >Somos un proyecto familiar, donde combinamos el amor y dedicación que tenemos por las plantas y por las mascotas. <br> Aquí encontraras información sobre el cuidado de ambos, además si quieres adquirir alguno de nuestros <br> productos lo puedes hacer directo en nuestro Instagram (click en el icono). <br> Esperamos que te guste nuestra página y bienvenidos.</p>
+                    <!--<a class ="linkEncuentranosIndex pt-5" href="#footer">Encuéntranos</a>
+                    <button type="button" class="btn btn-secondary bgBotonEncuentranos">ENCUÉNTRANOS</button>-->
+                    <a class="btn btn-primary" href="#footer" role="button">ENCUÉNTRANOS</a>
+
+                    
                 </section> 
+                <section>
                     <section class="seccionTarjetas">
-                        <h2 class="tituloSeccionTarjetasIndex">¿Qué puedes encontrar aquí?</h2>
-                        <div class="contenedorTarjetas">
+                        <h2 class="tituloSeccionTarjetasIndex text-center">¿Qué puedes encontrar aquí?</h2>
+                        <!-- <div class="contenedorTarjetas flex">
                             <section class="tarjetas">
-                                <img class="imgTarjetas" src="./assets/img/bolt_galeria.jpg" alt="collares">
-                                <h3>Collares</h3>   
-                            </section>
-                            <section class="tarjetas">
+                               <!--<img class="imgTarjetas" src="./assets/img/bolt_galeria.jpg" alt="collares"
+                                <h3>Collares</h3>
+                               </section>-->
+                               <div class="card bgTarjeta" style="width: 15rem;">
+                                <img src="./assets/img/bolt_galeria.jpg" class="card-img-top" alt="collares">
+                                <div class="card-body">
+                                    <p class="card-text ">Collares</p>
+                                </div>
+                                </div>
+                            <!--<section class="tarjetas">
                                 <img class="imgTarjetas" src="./assets/img/arnes-perro.jpg"  alt="arnés">
                                 <h3>Árnes</h3>
-                            </section>
-                            <section class="tarjetas">
+                            </section>-->
+                            <div class="card bgTarjeta" style="width: 15rem;">
+                                <img src="./assets/img/arnes-perro.jpg" class="card-img-top " alt="arnés">
+                                <div class="card-body">
+                                    <p class="card-text ">Arnés</p>
+                                </div>
+                                </div>
+                            <!--<section class="tarjetas">
                                 <img class="imgTarjetas" src="./assets/img/correa_galeria.jpg"  alt="correas extralargas">
                                 <h3>Correas</h3>
-                                </section>
-                            <section class="tarjetas">
+                                </section>-->
+                            <div class="card bgTarjeta" style="width: 15rem;">
+                                    <img src="./assets/img/correa_galeria.jpg" class="card-img-top" alt="correas extralargas">
+                                    <div class="card-body">
+                                        <p class="card-text ">Correas</p>
+                                    </div>
+                                    </div>
+                            <!--<section class="tarjetas">
                                 <img class="imgTarjetas" src="./assets/img/cactus-suculentas-mezclados-macetas-pequenas (1).jpg"  alt="suculentas">
                                 <h3>Suculentas</h3>
-                            </section>
-                            <section class="tarjetas">
+                            </section>-->
+                           <div class="card bgTarjeta" style="width: 15rem;">
+                                <img src="./assets/img/cactus-suculentas-mezclados-macetas-pequenas (1).jpg" class="card-img-top" alt="suculentas">
+                                <div class="card-body">
+                                    <p class="card-text ">Suculentas</p>
+                                </div>
+                                </div>
+                            <!--<section class="tarjetas">
                                 <img class="imgTarjetas" src="./assets/img/monstera_galeria.jpg"  alt="plantas">
                                 <h3>Plantas</h3>
-                            </section>
+                            </section>-->
+                           <div class="card bgTarjeta" style="width: 15rem;">
+                                <img src="./assets/img/monstera_galeria.jpg" class="card-img-top" alt="plantas">
+                                <div class="card-body">
+                                    <p class="card-text ">Plantas</p>
+                                </div>
+                                </div>
                     </div>
                     
                     </section>
-            </main>
+            </main class="mainIndex">
 
             <footer class="footerIndex" id="footer">
                 <div class="contenedorFooter">

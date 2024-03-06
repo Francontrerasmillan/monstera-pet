@@ -15,4 +15,45 @@ body
 .bgNavegacion
 {
 background-color: #3c7563b4 ;
+
 }
+.bgTarjeta
+{
+background-color: #b88556;
+color:white
+}
+.bgFotoMain
+{
+    background-image: url(../assets/img/gato\ con\ plantas_consejos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.mainIndex
+{
+    color: #e2d3d3;
+}
+.seccionTitulo
+{
+    height: 100vh;
+    object-fit: cover;
+ 
+}
+.tituloSeccionTarjetasIndex
+{
+    color: #e2d3d3;
+    background-color:#2d5548 ;
+}
+.card-text
+{
+    color: #2d5548;
+
+}
+.btn
+{
+    background-color: #b88556;
+    border-style: none;
+   
+}
+
