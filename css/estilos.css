@@ -12,6 +12,38 @@ body
     font-family: nunito ;
     color: #4e123a
 }
+h1
+{
+    font-size:3rem ;
+    font-weight: 800;
+    
+}
+/* media query h1*/
+@media screen  and (max-width:768px) 
+{
+    h1 
+    {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+h2
+{
+    font-size:2rem ;
+    font-weight:700 ;
+}
+
+h3
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+h4
+{
+    font-size: 1rem;
+    font-weight: 700;
+}
 
 /*Estilos del Header*/
 
@@ -29,22 +61,22 @@ body
              color: #6f385d;
              border-bottom: 2px solid #4e123a ;
                 }
- 
-            }
+             }
             .nav-link.colorMoradoClaro 
             {
             color: #6f385d;
             font-weight: 600;
                 &:hover
                 { 
-             color:#4e123a ;
-             border-bottom: 2px solid #6f385d  ;
+                color:#4e123a ;
+                border-bottom: 2px solid #6f385d  ;
                 }
             }
        }
     }
 
-    .nav-link {
+    .nav-link 
+    {
         display: block;
         padding: 0.5rem 1rem;
         color: #0d6efd;
@@ -53,23 +85,16 @@ body
     }
 
 /* Estilos del Main*/
-
-
 .seccionTitulo
 {
         height: 85vh;
         object-fit: cover;
         padding-left: 30px;
         padding-top: 100px;
-
-
-            .grosorFuenteLight
+        .grosorFuenteLight
         {
-        
         font-size: 2rem;
-        font-weight: 800
-        
-       
+        font-weight: 800               
         }  
        .parrafoMain 
        {
@@ -81,16 +106,15 @@ body
         {
         background-color: #b88556;
         border-color: #d1bdaa;
-        
         }
         
-            .btn-primary:hover 
-            {
-            color: #fff;
-            background-color: #8c623c;
-            border-color:#8e857c;
-            font-weight: 500;
-            }
+        .btn-primary:hover 
+        {
+        color: #fff;
+        background-color: #8c623c;
+        border-color:#8e857c;
+        font-weight: 500;
+        }
 }
         
 
@@ -163,7 +187,7 @@ font-weight: 700;
         .grosorFuenteLight
         {
         
-        font-size: 0.9rem;
+        font-size: 0.5rem;
         font-weight: 500 ; 
         text-align: center;
        
@@ -178,8 +202,7 @@ font-weight: 700;
         }
         .btn-primary        
         {
-        margin-left: 100px;
-        
+        margin-left: 150px;       
         }
     }
 }
@@ -248,12 +271,12 @@ font-weight: 700;
         font-weight: 200;
         }
         .btn-primary:hover 
-            {
-            color: #fff;
-            background-color: #8c623c;
-            border-color:#8e857c;
-            font-weight: 500;
-            }
+        {
+        color: #fff;
+        background-color: #8c623c;
+        border-color:#8e857c;
+        font-weight: 500;
+        }
     } 
 } 
  
@@ -270,56 +293,24 @@ font-weight: 700;
     {
     color: blue;
     font-size:3rem ;
-
     }
-h1
-{
-    font-size:3rem ;
-    font-weight: 800;
-    
-}
-h2
-{
-    font-size:2rem ;
-    font-weight:700 ;
-}
 
-h3
-{
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-h4
-{
-    font-size: 1rem;
-    font-weight: 700;
-}
 
 /*media query Footer*/
 @media screen  and (max-width:768px) 
 {
 .footer
-{
+    {
       padding: 20px;                    
    
         width: 100%;
         margin: 0 auto;
         flex-direction: column;
         align-items: center;
-        gap: 10px;
-        
-}
-     
+        gap: 10px;       
+    }  
 }
    
-/*.form
-{
-    background-color: #0d6efd;
-}
-.seccionMapaContacto
-{
-    background-color: #4e123a;
-}*/
 
 /*Main Consejos*/
 .mainConsejos.bgFotoConsejos
@@ -339,10 +330,10 @@ h4
     }
     .btn.btn-primary
     {
-        background-color: #b88556;
-        border-style: none;
-        font-weight: 200; 
-        margin-top: auto; 
+    background-color: #b88556;
+    border-style: none;
+    font-weight: 200; 
+    margin-top: auto; 
     }
     
    
@@ -355,39 +346,71 @@ h4
     background-image:url(../assets/img/fondo\ nosotros.png) ;   
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     
-
-.imgNosotros
-{
+    .imgNosotros
+    {
     width:100% ;
     background-size: cover;
-   
-}
+    }
 .historiaNosotros
-{
+    {
     background-color: #dfd8d0f2;
     border-radius: 10px;
-}
-
-
+    }
 }
 /*Media Query Main Nosotros*/
 @media screen  and (max-width:768px)
 {
-.videoNosotros
-{
-    width:270px ;
-    height: 400px;
-    align-content: center;
-   
-}
 
+.videoNosotros
+    {
+    width:230px ;
+    height: 300px;
+    align-content: center;
+    }   
 }
  
+
 /*Estilos Main Galeria*/
 .mainFondoGaleria
-{
-    background-image: url(../assets/img/fondogaleria.png);
-    background-size: cover;
+    {
+    background-color:#b7987a;
+    }
+.img-fluid
+    {
+    max-width: 100%;
+   object-fit: cover;   
+    }
+
+.img-fluid.imgArnes
+    {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    }
+
+/*Estilos del Main Contacto */
+
+.bgContacto
+    {
+    background-image: url(../assets/img/cactus_galeria.jpg);
+    background-size:cover;
     background-position: center;
-}
+    background-attachment: fixed;
+    }
+.btn.btn-info
+        {
+        color: #4e123a;
+        background-color: #b88556;
+        border-style: none;
+        font-weight: 500;
+        }
+        .btn-info:hover 
+            {
+            color: #fff;
+            background-color: #8c623c;
+            border-color:#8e857c;
+            font-weight: 500;
+            }
+

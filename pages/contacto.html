@@ -44,41 +44,43 @@
             </div>
           </nav>               
         </header>
-        <main class="mainContacto">
+        <main class="mainContacto bgContacto">
           <section >
             <h1 class="text-center py-3"">CONTACTO</h1>                  
           </section>
           <div class="container-fluid d-flex justify-content-evenly">            
           <div class="row">              
             <section class="seccionMapaContacto">
+            
+            
               <div class="col-6 col-md-auto  mt-2 "> 
               <iframe class="mapa pb-4 flex" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.846885600494!2d-73.10364109999999!3d-36.84614289999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669c9f6ec2f8589%3A0xe171f4fcb27a53c0!2sLos%20Nogales%20%26%20Las%20Pataguas%2C%204130527%20San%20Pedro%20de%20la%20Paz%2C%20B%C3%ADo%20B%C3%ADo!5e0!3m2!1ses!2scl!4v1706892670982!5m2!1ses!2scl" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                     
-                <p>En San Pedro de la Paz, Concepción, Región del Biobio, Chile</p>              
-                <p>franciscamonstera@gmail.com</p> 
-              </div> 
-            </div>
-             
+                <p class="fw-bold" >En San Pedro de la Paz, Concepción, Región del Biobio, Chile</p>              
+                <p class="fw-bold" >franciscamonstera@gmail.com</p> 
+              </div>           
             </section>
+        </div>
             <section>
-              <div class=" form col-6 col-md-auto gap-md-5 mt-2 "> 
+              <div class=" form col-6 col-md-auto gap-md-5 mt-2"> 
                 <form action="./404.html" method="post">
 
                   <div class="mb-3 pe-5">
-                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <label for="exampleFormControlInput1" class="form-label fs-5 fw-bold">Nombre</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre y apellido">
                   </div>
                   <div class="mb-3 pe-5">
-                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <label for="exampleFormControlInput1" class="form-label fs-5 fw-bold">Email</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@example.com">
                   </div>
                   <div class="mb-3 pe-5">
-                    <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                    <label for="exampleFormControlInput1" class="form-labelfs-5 fw-bold">Asunto</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre asunto">
                   </div>
                   <div class="mb-3 pe-5">
-                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <label for="exampleFormControlTextarea1" class="form-label fs-5 fw-bold">Mensaje</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" column="6"></textarea>
-                  </div>                              
+                  </div> 
+                  <button type="button" class="btn btn-info mb-5">Enviar</button>                          
                 </form>
               </div>
             </section>
