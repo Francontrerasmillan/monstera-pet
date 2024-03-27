@@ -1,0 +1,103 @@
+/*Estilos del Footer*/
+.footer
+{
+    background-color: #3c7563;
+   
+    .contenidoFooter
+    {
+        .linkFooter.nav1
+        {      
+        list-style: none;
+        text-decoration: none;
+        font-size: 1rem;
+       
+        .nav-item1
+            .nav-link1.colorBurdeo
+            {
+            color: #5f1f49;
+            list-style: none;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 600;
+                &:hover
+                {
+                color: #3a2432;
+                }
+            }
+            .nav-link1.colorBurdeoClaro
+            {
+                color: #3a2432;
+                list-style: none;
+                text-decoration: none;
+                font-size: 1rem;
+                font-weight: 600;
+                &:hover
+                {
+                    color: #5f1f49;
+                }
+            }         
+        }
+    
+    }        
+ 
+    .casaMatriz
+    {
+             .mapa
+            {
+            border-radius: 5px;
+           
+            }
+            .parrafoFooter
+            {
+                font-size: 1rem;
+                font-weight:600 ;
+            }
+    } 
+    .suscribete
+    {
+        .btn.btn-primary
+        {   
+        background-color: #b88556;
+        border-style: none;
+        font-weight: 200;
+        }
+        .btn-primary:hover 
+        {
+        color: #fff;
+        background-color: #8c623c;
+        border-color:#8e857c;
+        font-weight: 500;
+        }
+    } 
+} 
+ 
+    .fa-instagram
+    {
+    color: #9921b1;
+    font-size: 3rem;
+    padding-right: 30px;
+    padding-left: 10px;
+    }
+
+
+    .fa-facebook
+    {
+    color: blue;
+    font-size:3rem ;
+    }
+
+
+/*media query Footer*/
+@media screen  and (max-width:768px) 
+{
+.footer
+    {
+      padding: 20px;                    
+   
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;       
+    }  
+}
