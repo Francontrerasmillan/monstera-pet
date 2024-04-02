@@ -1,0 +1,34 @@
+/*Estilos Main Galeria*/
+
+.mainFondoGaleria
+    {
+
+    background-image: radial-gradient(circle, #969fff, #a2a6f4, #adaee9, #b6b5dd, #bebdd2);
+   
+    }
+ 
+.img-fluid
+    {
+    max-width: 100%;
+    object-fit: $bg-size;
+    overflow: hidden;
+    transition:transform 1s ease-in-out; 
+    &:hover
+    {
+        transform: scale(0.9);
+    }
+    }
+        .img-fluid.imgArnes
+        {
+        width: 100%;
+        height: 80%;
+        object-fit: $bg-size;
+        }
+        @media screen  and (max-width:768px) 
+        {
+            .img-fluid.imgArnes
+            {
+                height: 100%;
+            }
+        }
+

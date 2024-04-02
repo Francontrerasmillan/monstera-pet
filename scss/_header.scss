@@ -1,0 +1,29 @@
+/*Estilos del Header*/
+
+.navbar-dark.bgNavegacion
+{
+   background-image: $bg-header;
+        
+    .navbar-nav{ 
+            .nav-link.colorMorado 
+            {
+         color: $color-fuente-principal;
+            font-weight: 600;
+                &:hover
+                { 
+             color: $color-fuente-deshabilitado;
+             border-bottom: 2px solid $color-fuente-principal ;
+                }
+             }
+            .nav-link.colorMoradoClaro 
+            {
+            color:$color-fuente-deshabilitado;
+            font-weight: 600;
+                &:hover
+                { 
+                color:$color-fuente-principal ;
+                border-bottom: 2px solid $color-fuente-deshabilitado  ;
+                }
+            }
+       }
+    }

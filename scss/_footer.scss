@@ -1,0 +1,147 @@
+@keyframes flotar 
+{
+ 0% 
+ {
+    transform: translateY(0);
+ }
+ 50% 
+ {
+    transform: translateY(-10px);
+ }
+ 100% 
+ {
+    transform: translateY(0);
+ }
+}
+
+
+
+.footer
+{
+    background-image:$bg-footer;
+   
+    .contenidoFooter
+    {
+        .linkFooter.nav1
+        {      
+        list-style: none;
+        text-decoration: none;
+        font-size: $font1rem;
+       
+        .nav-item1
+            .nav-link1.colorBurdeo
+            {
+            color: $color-fuente-footer-1;
+            list-style: none;
+            text-decoration: none;
+            font-size:$font1rem;
+            font-weight:$font600;
+                &:hover
+                {
+                color:$color-fuente-footer-2;
+                }
+            }
+            .nav-link1.colorBurdeoClaro
+            {
+                color: $color-fuente-footer-2;
+                list-style: none;
+                text-decoration: none;
+                font-size: $font1rem;
+                font-weight:$font600;
+                &:hover
+                {
+                    color: $color-fuente-footer-1;
+                }
+            }         
+        }
+    
+    }        
+ 
+    .casaMatriz
+    {
+             .mapa
+            {
+            border-radius: $border5;
+           
+            }
+            .parrafoFooter
+            {
+                font-size:$font1rem;
+                font-weight:$font600 ;
+            }
+    } 
+        .suscribete
+        {
+            .btn.btn-primary
+            {   
+            color:#ffff ;
+            background-color:#767469;
+            border-style: none;        
+            &:hover 
+            {
+            color:$color-fuente-principal;
+            background-color: #969fff;
+            border-color:#8e857c;
+            }
+        }
+    } 
+    .rrss
+    {
+        animation-name: flotar;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+    
+        .fa-instagram
+        {
+        color:map-get($rrss , color-ig );
+        font-size: $tf-rrss;
+        padding-right: 30px;
+        padding-left: 10px; 
+        }
+        .fa-facebook
+        {
+        color:map-get($rrss , color-face );
+        font-size:$tf-rrss ;
+        animation-delay: 0.2s;
+        }
+        .fa-whatsapp
+        {
+            color: map-get($rrss, color-wsp );
+            font-size: $tf-rrss;
+            padding-right: 10px;
+            padding-left: 30px;
+            animation-delay: 0.4s;
+        } 
+}
+    .divFooter
+    {
+    color: $color-fuente-principal;
+    background-image: $bg-header;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    }
+
+
+/*media query Footer*/
+@media screen  and (max-width:768px) 
+{
+.footer
+    {
+        padding: 20px;                    
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;       
+    }  
+    .suscribete
+    {
+        .btn.btn-primary
+        {   
+        margin-right: 150px;
+        
+        }
+    }
+}

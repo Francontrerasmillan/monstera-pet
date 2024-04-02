@@ -1,0 +1,22 @@
+{
+  "name": "proyecto_monstera",
+  "version": "1.0.0",
+  "description": "Proyecto Coderhouse en el cual se muestran plantas y accesorios para mascotas confeccion propia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Francontrerasmillan/monstera-pet.git"
+  },
+  "author": "Francisca Contreras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Francontrerasmillan/monstera-pet/issues"
+  },
+  "homepage": "https://github.com/Francontrerasmillan/monstera-pet#readme",
+  "dependencies": {
+    "sass": "^1.72.0"
+  }
+}

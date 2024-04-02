@@ -1,0 +1,40 @@
+
+/*Estilo Main Nosotros*/
+.mainNosotros.bgFotoNosotros
+{
+    width: 100%;
+    background-image:$bg-image-nosotros ;   
+    background-size: $bg-size;
+    background-position: $bg-position;
+    background-attachment: $bg-attachment;
+    
+    .imgNosotros
+    {
+    width:100% ;
+    background-size: cover;
+    }
+.historiaNosotros
+    {
+    background-color: #dfd8d0f2;
+    border-radius: 10px;
+    }
+.videoNosotros{
+    width: 750px;
+    height: 400px;  
+    }      
+}
+
+/*Media Query Main Nosotros*/
+@media screen  and (max-width:768px)
+{
+    .mainNosotros.bgFotoNosotros
+    {
+    .videoNosotros
+        {
+        width:300px ;
+        height: 200px;
+        align-content: center;
+        }  
+    } 
+}
+ 

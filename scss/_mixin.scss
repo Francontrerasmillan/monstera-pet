@@ -1,0 +1,9 @@
+@mixin cambiar-fondo($bg-image-contacto, $bg-size, $bg-position, $bg-attachment)
+{
+background-image:$bg-image-contacto;
+background-size: $bg-size;
+background-position: $bg-position;
+background-attachment: $bg-attachment;
+
+}
+
