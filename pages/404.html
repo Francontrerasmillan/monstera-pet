@@ -17,7 +17,7 @@
           <nav class="navbar navbar-expand-lg navbar-dark bgNavegacion">
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html">
-               <img src="../assets/img/logo-png.png" alt="Logo" width="90">
+              <img src="../assets/img/logo sitio web1.png" class="logo" alt="Logo">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,11 +48,18 @@
           </nav>               
         </header>
         <main>
-            <section class="main404">
+           <!--Vista imagen mobile-->
+            <section class="main404 d-none d-md-block">
                 <h1 class="text-center mt-5">404</h1>
                 <p class="text-center">Lo sentimos, la página que buscas no existe.</p>
-            <img src="../assets/img/perro-malo-haciendo-lio-consejos1.jpg" class="rounded my-5 mx-5"  alt="pagina no encontrada">
+            <img src="../assets/img/perro-malo-haciendo-lio-consejos1.jpg" class="rounded my-5 mx-5 "  alt="pagina no encontrada">
             </section>
+            <!--Vista imagen mobile-->
+            <section class="main404 d-block d-md-none">
+              <h1 class="text-center mt-5">404</h1>
+              <p class="text-center">Lo sentimos, la página que buscas no existe.</p>
+          <img src="../assets/img/perro-malo-haciendo-lio-consejos mobile.jpg" class="rounded my-5 mx-5 w-50 "  alt="pagina no encontrada">
+          </section>
         </main>
         <footer id="footer" class="footer container-fluid d-flex justify-content-evenly gap-2 gap-md-5 p-5   " >
           <section class="contenidoFooter d-none d-md-block">    
