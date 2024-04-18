@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-/*Estilos del Footer*/
-.footer
-{
-    background-color: #3c7563;
-=======
 @keyframes flotar 
 {
  0% 
@@ -25,7 +19,6 @@
 .footer
 {
     background-image:$bg-footer;
->>>>>>> feature/preEntrega3
    
     .contenidoFooter
     {
@@ -33,25 +26,11 @@
         {      
         list-style: none;
         text-decoration: none;
-<<<<<<< HEAD
-        font-size: 1rem;
-=======
         font-size: $font1rem;
->>>>>>> feature/preEntrega3
        
         .nav-item1
             .nav-link1.colorBurdeo
             {
-<<<<<<< HEAD
-            color: #5f1f49;
-            list-style: none;
-            text-decoration: none;
-            font-size: 1rem;
-            font-weight: 600;
-                &:hover
-                {
-                color: #3a2432;
-=======
             color: $color-fuente-footer-1;
             list-style: none;
             text-decoration: none;
@@ -60,21 +39,10 @@
                 &:hover
                 {
                 color:$color-fuente-footer-2;
->>>>>>> feature/preEntrega3
                 }
             }
             .nav-link1.colorBurdeoClaro
             {
-<<<<<<< HEAD
-                color: #3a2432;
-                list-style: none;
-                text-decoration: none;
-                font-size: 1rem;
-                font-weight: 600;
-                &:hover
-                {
-                    color: #5f1f49;
-=======
                 color: $color-fuente-footer-2;
                 list-style: none;
                 text-decoration: none;
@@ -83,7 +51,6 @@
                 &:hover
                 {
                     color: $color-fuente-footer-1;
->>>>>>> feature/preEntrega3
                 }
             }         
         }
@@ -94,52 +61,11 @@
     {
              .mapa
             {
-<<<<<<< HEAD
-            border-radius: 5px;
-=======
             border-radius: $border5;
->>>>>>> feature/preEntrega3
            
             }
             .parrafoFooter
             {
-<<<<<<< HEAD
-                font-size: 1rem;
-                font-weight:600 ;
-            }
-    } 
-    .suscribete
-    {
-        .btn.btn-primary
-        {   
-        background-color: #b88556;
-        border-style: none;
-        font-weight: 200;
-        }
-        .btn-primary:hover 
-        {
-        color: #fff;
-        background-color: #8c623c;
-        border-color:#8e857c;
-        font-weight: 500;
-        }
-    } 
-} 
- 
-    .fa-instagram
-    {
-    color: #9921b1;
-    font-size: 3rem;
-    padding-right: 30px;
-    padding-left: 10px;
-    }
-
-
-    .fa-facebook
-    {
-    color: blue;
-    font-size:3rem ;
-=======
                 font-size:$font1rem;
                 font-weight:$font600 ;
             }
@@ -196,7 +122,6 @@
     background-image: $bg-header;
     padding-top: 20px;
     padding-bottom: 10px;
->>>>>>> feature/preEntrega3
     }
 
 
@@ -205,21 +130,13 @@
 {
 .footer
     {
-<<<<<<< HEAD
-      padding: 20px;                    
-   
-=======
         padding: 20px;                    
->>>>>>> feature/preEntrega3
         width: 100%;
         margin: 0 auto;
         flex-direction: column;
         align-items: center;
         gap: 10px;       
     }  
-<<<<<<< HEAD
-}
-=======
     .suscribete
     {
         .btn.btn-primary
@@ -229,4 +146,3 @@
         }
     }
 }
->>>>>>> feature/preEntrega3

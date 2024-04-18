@@ -1,11 +1,9 @@
 /*Estilos del Header*/
 
+/*Estilos del Header*/
+
 .navbar-dark.bgNavegacion
 {
-<<<<<<< HEAD
-    background-color:$color-bg-header ;
-       
-=======
    background-image: $bg-header;
 
    .logo
@@ -13,7 +11,6 @@
       width: 100px;
    }
         
->>>>>>> feature/preEntrega3
     .navbar-nav{ 
             .nav-link.colorMorado 
             {
@@ -21,30 +18,18 @@
             font-weight: 600;
                 &:hover
                 { 
-<<<<<<< HEAD
-             color: #6f385d;
-=======
              color: $color-fuente-deshabilitado;
->>>>>>> feature/preEntrega3
              border-bottom: 2px solid $color-fuente-principal ;
                 }
              }
             .nav-link.colorMoradoClaro 
             {
-<<<<<<< HEAD
-            color: #6f385d;
-=======
             color:$color-fuente-deshabilitado;
->>>>>>> feature/preEntrega3
             font-weight: 600;
                 &:hover
                 { 
                 color:$color-fuente-principal ;
-<<<<<<< HEAD
-                border-bottom: 2px solid #6f385d  ;
-=======
                 border-bottom: 2px solid $color-fuente-deshabilitado  ;
->>>>>>> feature/preEntrega3
                 }
             }
        }

@@ -10,22 +10,14 @@ body {
 }
 
 h1 {
-<<<<<<< HEAD
-  font-size: 3rem;
-=======
   font-size: 4rem;
->>>>>>> feature/preEntrega3
   font-weight: 800;
 }
 
 /* media query h1*/
 @media screen and (max-width: 768px) {
   h1 {
-<<<<<<< HEAD
-    font-size: 2rem;
-=======
     font-size: 3rem;
->>>>>>> feature/preEntrega3
     text-align: center;
   }
 }
@@ -79,86 +71,8 @@ h4 {
   }
 }
 /*Estilos del Header*/
+/*Estilos del Header*/
 .navbar-dark.bgNavegacion {
-<<<<<<< HEAD
-  background-color: rgba(60, 117, 99, 0.7058823529);
-}
-.navbar-dark.bgNavegacion .navbar-nav .nav-link.colorMorado {
-  color: #4e123a;
-  font-weight: 600;
-}
-.navbar-dark.bgNavegacion .navbar-nav .nav-link.colorMorado:hover {
-  color: #6f385d;
-  border-bottom: 2px solid #4e123a;
-}
-.navbar-dark.bgNavegacion .navbar-nav .nav-link.colorMoradoClaro {
-  color: #6f385d;
-  font-weight: 600;
-}
-.navbar-dark.bgNavegacion .navbar-nav .nav-link.colorMoradoClaro:hover {
-  color: #4e123a;
-  border-bottom: 2px solid #6f385d;
-}
-
-/*Estilos del Footer*/
-.footer {
-  background-color: #3c7563;
-}
-.footer .contenidoFooter .linkFooter.nav1 {
-  list-style: none;
-  text-decoration: none;
-  font-size: 1rem;
-}
-.footer .contenidoFooter .linkFooter.nav1 .nav-item1 .nav-link1.colorBurdeo {
-  color: #5f1f49;
-  list-style: none;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: 600;
-}
-.footer .contenidoFooter .linkFooter.nav1 .nav-item1 .nav-link1.colorBurdeo:hover {
-  color: #3a2432;
-}
-.footer .contenidoFooter .linkFooter.nav1 .nav-link1.colorBurdeoClaro {
-  color: #3a2432;
-  list-style: none;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: 600;
-}
-.footer .contenidoFooter .linkFooter.nav1 .nav-link1.colorBurdeoClaro:hover {
-  color: #5f1f49;
-}
-.footer .casaMatriz .mapa {
-  border-radius: 5px;
-}
-.footer .casaMatriz .parrafoFooter {
-  font-size: 1rem;
-  font-weight: 600;
-}
-.footer .suscribete .btn.btn-primary {
-  background-color: #b88556;
-  border-style: none;
-  font-weight: 200;
-}
-.footer .suscribete .btn-primary:hover {
-  color: #fff;
-  background-color: #8c623c;
-  border-color: #8e857c;
-  font-weight: 500;
-}
-
-.fa-instagram {
-  color: #9921b1;
-  font-size: 3rem;
-  padding-right: 30px;
-  padding-left: 10px;
-}
-
-.fa-facebook {
-  color: blue;
-  font-size: 3rem;
-=======
   background-image: radial-gradient(circle, #3c7563, #458470, #4f937d, #58a28b, #62b299);
 }
 .navbar-dark.bgNavegacion .logo {
@@ -541,7 +455,6 @@ h4 {
   background-image: radial-gradient(circle, #3c7563, #458470, #4f937d, #58a28b, #62b299);
   padding-top: 20px;
   padding-bottom: 10px;
->>>>>>> feature/preEntrega3
 }
 
 /*media query Footer*/
@@ -554,188 +467,9 @@ h4 {
     align-items: center;
     gap: 10px;
   }
-<<<<<<< HEAD
-}
-/* Estilos del Main*/
-.seccionTitulo {
-  height: 85vh;
-  object-fit: cover;
-  padding-left: 30px;
-  padding-top: 100px;
-}
-.seccionTitulo .grosorFuenteLight {
-  font-size: 2rem;
-  font-weight: 800;
-}
-.seccionTitulo .parrafoMain {
-  font-size: 1.2rem;
-  font-weight: 500;
-  line-height: 2;
-}
-.seccionTitulo .btn.btn-primary {
-  background-color: #b88556;
-  border-color: #d1bdaa;
-}
-.seccionTitulo .btn-primary:hover {
-  color: #fff;
-  background-color: #8c623c;
-  border-color: #8e857c;
-  font-weight: 500;
-}
-
-.bgFotoMain {
-  width: 100%;
-  background-image: url(../assets/img/gato-helecho.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-.seccionTarjetasIndex .tituloSeccionTarjetasIndex {
-  color: #e2d3d3;
-  background-color: #2d5548;
-}
-.seccionTarjetasIndex .bgTarjeta {
-  background-color: #b88556;
-  color: #eae4e4;
-}
-.seccionTarjetasIndex .bgTarjeta .card-img-top {
-  width: 100%;
-  height: 80%;
-  object-fit: cover;
-}
-.seccionTarjetasIndex .card-text {
-  color: #2d5548;
-  font-weight: 650;
-}
-
-.carousel-item {
-  height: 80vh;
-}
-
-.carousel-item img {
-  height: 100%;
-  object-fit: cover;
-}
-
-.tituloProducto {
-  color: #4e123a;
-  background-color: #b88556;
-  border-radius: 5px;
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-/* media query main*/
-@media screen and (max-width: 768px) {
-  .seccionTitulo {
-    height: 50vh;
-    object-fit: cover;
-    padding-top: 10px;
-  }
-  .seccionTitulo .grosorFuenteLight {
-    font-size: 0.5rem;
-    font-weight: 500;
-    text-align: center;
-  }
-  .seccionTitulo .parrafoMain {
-    font-size: 0.9rem;
-    font-weight: 300;
-    text-align: center;
-    line-height: 1.2;
-  }
-  .seccionTitulo .btn-primary {
-    margin-left: 150px;
-  }
-}
-/*Main Consejos*/
-.mainConsejos.bgFotoConsejos {
-  width: 100%;
-  background-image: url(../assets/img/fondosucu.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-.mainConsejos.bgFotoConsejos .card-img-top {
-  width: 100%;
-  height: 60%;
-  object-fit: cover;
-}
-.mainConsejos.bgFotoConsejos .btn.btn-primary {
-  background-color: #b88556;
-  border-style: none;
-  font-weight: 200;
-  margin-top: auto;
-}
-
-/*Estilo Main Nosotros*/
-.mainNosotros.bgFotoNosotros {
-  width: 100%;
-  background-image: url(../assets/img/fondo\ nosotros.png);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-.mainNosotros.bgFotoNosotros .imgNosotros {
-  width: 100%;
-  background-size: cover;
-}
-.mainNosotros.bgFotoNosotros .historiaNosotros {
-  background-color: rgba(223, 216, 208, 0.9490196078);
-  border-radius: 10px;
-}
-
-/*Media Query Main Nosotros*/
-@media screen and (max-width: 768px) {
-  .videoNosotros {
-    width: 230px;
-    height: 300px;
-    align-content: center;
-  }
-}
-/*Estilos Main Galeria*/
-.mainFondoGaleria {
-  background-color: #b7987a;
-}
-
-.img-fluid {
-  max-width: 100%;
-  object-fit: cover;
-}
-
-.img-fluid.imgArnes {
-  width: 100%;
-  height: 80%;
-  object-fit: cover;
-}
-
-/*Estilos del Main Contacto */
-.bgContacto {
-  background-image: url(../assets/img/cactus_galeria.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-.btn.btn-info {
-  color: #4e123a;
-  background-color: #b88556;
-  border-style: none;
-  font-weight: 500;
-}
-
-.btn-info:hover {
-  color: #fff;
-  background-color: #8c623c;
-  border-color: #8e857c;
-  font-weight: 500;
-}
-
-=======
   .suscribete .btn.btn-primary {
     margin-right: 150px;
   }
 }
 
->>>>>>> feature/preEntrega3
 /*# sourceMappingURL=estilos.css.map */
