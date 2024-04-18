@@ -36,6 +36,23 @@ h4 {
   font-weight: 700;
 }
 
+.botonArriba {
+  color: #e2d3d3;
+  background-color: #969fff;
+  font-size: 2rem;
+  position: fixed;
+  bottom: 55px;
+  right: 25px;
+  border: none;
+  border-radius: 80%;
+  padding: 10px 15px;
+}
+.botonArriba:hover {
+  color: #4e123a;
+  background-color: #e3d7bf;
+  font-weight: 800;
+}
+
 .bgHuno {
   color: #e2d3d3;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.537)), url(../assets/img/gato\ con\ plantas_consejos\ 1920.jpg);
@@ -50,11 +67,15 @@ h4 {
 @media screen and (max-width: 768px) {
   .bgHuno {
     height: 150px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.537)), url(../assets/img/gato\ con\ plantas_consejos\ 600.jpg);
   }
 }
 /*Estilos del Header*/
 .navbar-dark.bgNavegacion {
   background-image: radial-gradient(circle, #3c7563, #458470, #4f937d, #58a28b, #62b299);
+}
+.navbar-dark.bgNavegacion .logo {
+  width: 100px;
 }
 .navbar-dark.bgNavegacion .navbar-nav .nav-link.colorMorado {
   color: #4e123a;
@@ -96,16 +117,38 @@ h4 {
 
 .bgFotoMain {
   width: 100%;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.537)), url(../assets/img/gato-helecho.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.537)), url(../assets/img/gato-helecho1200.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
-.seccionTarjetasIndex .tituloSeccionTarjetasIndex {
+.consejosIndex .card-img-top {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  transition: transform 1s ease-in-out;
+}
+.consejosIndex .card-img-top:hover {
+  transform: scale(0.9);
+}
+.consejosIndex .btn.btn-primary {
+  width: 45%;
+  background-color: #767496;
+  border-color: #d1bdaa;
+}
+.consejosIndex .btn.btn-primary:hover {
+  color: #e2d3d3;
+  background-color: #969fff;
+  font-weight: 500;
+}
+
+.tituloSeccionTarjetasIndex {
   color: #e2d3d3;
   background-image: radial-gradient(circle, #767496, #60546b, #453744);
 }
+
 .seccionTarjetasIndex .bgTarjeta {
   background-image: radial-gradient(circle, #767496, #7f7eaf, #8889c9, #8f94e4, #969fff);
   color: #e2d3d3;
@@ -115,6 +158,11 @@ h4 {
   width: 100%;
   height: 80%;
   object-fit: cover;
+  overflow: hidden;
+  transition: transform 1s ease-in-out;
+}
+.seccionTarjetasIndex .bgTarjeta .card-img-top:hover {
+  transform: scale(0.9);
 }
 .seccionTarjetasIndex .card-text {
   color: #e2d3d3;
@@ -144,6 +192,21 @@ h4 {
   background-image: radial-gradient(circle, #767496, #60546b, #453744);
 }
 
+.resenaIndex .card {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  border: none;
+}
+.resenaIndex .card .card-img-top {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+}
+.resenaIndex .card-footer {
+  border: none;
+}
+
 /* media query main*/
 @media screen and (max-width: 768px) {
   .seccionTitulo {
@@ -151,9 +214,12 @@ h4 {
     object-fit: cover;
     padding-top: 30px;
   }
+  .bgFotoMain {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.537)), url(../assets/img/gato-helecho\ \(600\).jpg);
+  }
   .btn-primary {
-    margin-left: 150px;
-    margin-top: 70px;
+    margin-left: 120px;
+    margin-top: 20px;
   }
 }
 /*Estilos del Main Contacto */
@@ -187,6 +253,9 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
+  .bgContacto {
+    background-image: url(../assets/img/borde-cactus-sobre-fondo-rosa\ mobile.jpg);
+  }
   .mapaContacto {
     width: 300px;
     height: 300px;
@@ -196,15 +265,23 @@ h4 {
 /*Main Consejos*/
 .mainConsejos.bgFotoConsejos {
   width: 100%;
-  background-image: url(../assets/img/fondosucu.jpg);
+  background-image: url(../assets/img/fondosucucompu.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
+.mainConsejos.bgFotoConsejos .bgH2 {
+  background-color: rgba(173, 150, 168, 0.7019607843);
+}
 .mainConsejos.bgFotoConsejos .card-img-top {
   width: 100%;
-  height: 60%;
+  height: 50%;
   object-fit: cover;
+  overflow: hidden;
+  transition: transform 1s ease-in-out;
+}
+.mainConsejos.bgFotoConsejos .card-img-top:hover {
+  transform: scale(0.9);
 }
 .mainConsejos.bgFotoConsejos .btn.btn-primary {
   width: 45%;
@@ -217,6 +294,11 @@ h4 {
   font-weight: 500;
 }
 
+@media screen and (max-width: 768px) {
+  .mainConsejos.bgFotoConsejos {
+    background-image: url(../assets/img/fondosucu\ mobile.jpg);
+  }
+}
 /*Estilo Main Nosotros*/
 .mainNosotros.bgFotoNosotros {
   width: 100%;
@@ -227,7 +309,12 @@ h4 {
 }
 .mainNosotros.bgFotoNosotros .imgNosotros {
   width: 100%;
-  background-size: cover;
+  object-fit: cover;
+  overflow: hidden;
+  transition: transform 1s ease-in-out;
+}
+.mainNosotros.bgFotoNosotros .imgNosotros:hover {
+  transform: scale(0.9);
 }
 .mainNosotros.bgFotoNosotros .historiaNosotros {
   background-color: rgba(223, 216, 208, 0.9490196078);
@@ -236,12 +323,21 @@ h4 {
 .mainNosotros.bgFotoNosotros .videoNosotros {
   width: 750px;
   height: 400px;
+  object-fit: cover;
+  overflow: hidden;
+  transition: transform 1s ease-in-out;
+}
+.mainNosotros.bgFotoNosotros .videoNosotros:hover {
+  transform: scale(0.9);
 }
 
 /*Media Query Main Nosotros*/
 @media screen and (max-width: 768px) {
+  .mainNosotros.bgFotoNosotros {
+    background-image: url(../assets/img/fondo\ monstera\ mobile.jpg);
+  }
   .mainNosotros.bgFotoNosotros .videoNosotros {
-    width: 300px;
+    width: 200px;
     height: 200px;
     align-content: center;
   }

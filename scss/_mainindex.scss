@@ -28,19 +28,55 @@
 .bgFotoMain
 {
     width: 100%;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.537)), url(../assets/img/gato-helecho.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.537)), url(../assets/img/gato-helecho1200.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
+
+    .consejosIndex
+    {
+        .card-img-top
+        {
+        width: 100%;
+        height: 50%;
+        object-fit: $bg-size;
+        overflow: hidden;
+        transition:transform 1s ease-in-out; 
+        &:hover
+        {
+            transform: scale(0.9);
+        }
+
+        }
+
+        .btn.btn-primary        
+        {
+        width: 45%;
+        background-color:$color-terciario ;
+        border-color: #d1bdaa;
+        
+            &:hover 
+            {
+            color: $color-fuente-secundario;
+            background-color: $bg-hover;
+            font-weight: $font500;
+            }
+        }  
+    } 
+
+.tituloSeccionTarjetasIndex
+{
+    color: $color-fuente-secundario;
+    background-image: $bg-tarjetas;
+}
+
+
+
 .seccionTarjetasIndex
 {
-    .tituloSeccionTarjetasIndex
-    {
-        color: $color-fuente-secundario;
-        background-image: $bg-tarjetas;
-    }
+  
 
     .bgTarjeta
     {
@@ -49,9 +85,16 @@
     border: none;
         .card-img-top
         {
-        width: 100%;
-        height: 80%;
-        object-fit: cover;
+            width: 100%;
+            height: 80%;
+            object-fit: $bg-size;
+            overflow: hidden;
+            transition:transform 1s ease-in-out; 
+            &:hover
+            {
+                transform: scale(0.9);
+            }
+    
         }
     }
     .card-text
@@ -88,6 +131,34 @@ font-weight: $font600;
     background-image: $bg-tarjetas;
 }
 
+
+
+.resenaIndex
+{
+    .card
+    {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        border: none;
+        
+       
+        .card-img-top
+        {
+            width: 60%;
+            height: 60%;
+            object-fit: cover;
+            
+        }
+    }
+    .card-footer
+    {
+        border: none;
+ 
+    }
+}
+
+
 /* media query main*/
 @media screen  and (max-width:768px) 
 {
@@ -98,9 +169,16 @@ font-weight: $font600;
         padding-top: 30px;      
        
     }  
+    .bgFotoMain
+{
+ 
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.537)), url(../assets/img/gato-helecho\ \(600\).jpg);
+
+}
+
         .btn-primary        
         {
-        margin-left: 150px; 
-        margin-top: 70px;      
+        margin-left: 120px; 
+        margin-top: 20px;      
         }
     }

@@ -13,11 +13,11 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
     <body>
-        <header>
+        <header id="header">
           <nav class="navbar navbar-expand-lg navbar-dark bgNavegacion">
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html">
-               <img src="../assets/img/logo-png.png" alt="Logo" width="90">
+                <img src="../assets/img/logo sitio web1.png" class="logo"  alt="Logo">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,16 +52,20 @@
             <h1 class="text-center py-5 text-uppercase bgHuno animate__animated animate__pulse">Contacto</h1>                  
           </section>
           <section>
+            <h2 class="fs-4 text-center m-5">¿Tienes alguna pregunta, sugerencia o necesitas asistencia? ¡No dudes en ponerte en contacto con nosotros! Estamos aquí para ayudarte en todo lo que necesites relacionado con plantas y accesorios para mascotas.</h2>
+          </section>
+          <section>
           <div class="container-fluid  ">            
           <div class="row"> 
               <div class="col-12 col-md-6 ps-md-5 mt-5"> 
-              <iframe class="mapaContacto pb-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.846885600494!2d-73.10364109999999!3d-36.84614289999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669c9f6ec2f8589%3A0xe171f4fcb27a53c0!2sLos%20Nogales%20%26%20Las%20Pataguas%2C%204130527%20San%20Pedro%20de%20la%20Paz%2C%20B%C3%ADo%20B%C3%ADo!5e0!3m2!1ses!2scl!4v1706892670982!5m2!1ses!2scl"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                     
-                <p class="fw-bold text-justify" >En San Pedro de la Paz, Concepción, Región del Biobio, Chile</p>              
+              <iframe class="mapaContacto pb-4 " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.846885600494!2d-73.10364109999999!3d-36.84614289999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669c9f6ec2f8589%3A0xe171f4fcb27a53c0!2sLos%20Nogales%20%26%20Las%20Pataguas%2C%204130527%20San%20Pedro%20de%20la%20Paz%2C%20B%C3%ADo%20B%C3%ADo!5e0!3m2!1ses!2scl!4v1706892670982!5m2!1ses!2scl"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                     
+            <p class="fw-bold text-justify ">San Pedro de la Paz, Concepción, Región del Biobio, Chile </p>  
+              
                 <p class="fw-bold text-justify mb-5" >franciscamonstera@gmail.com</p> 
               </div>         
              
               <div class=" form col-12 col-md-6  mt-4  "> 
-                <form action="./404.html" method="post">
+                <form action="../pages/404.html" method="post">
 
                   <div class="col-11 col-md-8 mb-3 ">
                     <label for="exampleFormControlInput1" class="form-label fs-5 fw-bold">Nombre</label>
@@ -78,14 +82,17 @@
                   <div class="col-11 col-md-8 mb-3 ">
                     <label for="exampleFormControlTextarea1" class="form-label fs-5 fw-bold">Mensaje</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" column="6"></textarea>
-                  </div> 
-                  <button type="button" class="btn btn-info mb-5 ">Enviar</button>                          
+                  </div>                   
+                  <a class="btn btn-info mb-5" href="../pages/404.html" role="button">Enviar</a>                          
                 </form>
               </div>
-              
-            
           </div>
           </div>
+          <section>
+            <h3 class="fs-5 fw-normal text-center pb-5 px-5">¡Estamos ansiosos por escucharte y ayudarte a crear un ambiente verde y acogedor para ti y tus mascotas! No dudes en comunicarte con nosotros para cualquier consulta o comentario que tengas.</h3>
+          </section>
+          
+        
 
         </main>
         <footer id="footer" class="footer container-fluid d-flex justify-content-evenly gap-2 gap-md-5 p-5   " >
@@ -95,13 +102,13 @@
                       <h4 class="text-uppercase text-center">contenido</h4>
                        <ul class="linkFooter nav1 ">
                           <li class="nav-item1">
-                          <a class="nav-link1 colorBurdeo active " aria-current="page" href="../index.html">Inicio</a>
+                          <a class="nav-link1 colorBurdeoClaro " aria-current="page" href="../index.html">Inicio</a>
                           </li>
                           <li class="nav-item1">
                           <a class="nav-link1 colorBurdeoClaro" href="../pages/consejos.html">Consejos</a>
                           </li>
                           <li class="nav-item1">
-                          <a class="nav-link1 colorBurdeoClaro" href="../pages/contacto.html">Contacto</a>
+                          <a class="nav-link1 colorBurdeo active " href="../pages/contacto.html">Contacto</a>
                           </li>
                           <li class="nav-item1">
                           <a class="nav-link1 colorBurdeoClaro" href="../pages/galeria.html">Galería</a>
@@ -142,6 +149,8 @@
                       <a href="https://www.instagram.com/monstera.pet/" target="_blank"><i class="rrss fa-brands fa-instagram"></i></a>
                       <a href="https://www.facebook.com/" target="_blank"><i class="rrss fa-brands fa-facebook"></i></a>
                       <a href="./pages/404.html" target="_blank"> <i class="rrss fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+                      <a class="botonArriba btn btn-primary" href="#header" role="button">↑</a>
+                      
                     </div>                                     
               </section>
           </div>     

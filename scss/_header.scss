@@ -3,6 +3,11 @@
 .navbar-dark.bgNavegacion
 {
    background-image: $bg-header;
+
+   .logo
+   {
+      width: 100px;
+   }
         
     .navbar-nav{ 
             .nav-link.colorMorado 
