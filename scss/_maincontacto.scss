@@ -1,0 +1,50 @@
+
+/*Estilos del Main Contacto */
+
+.bgContacto
+{
+ @include cambiar-fondo($bg-image-contacto, $bg-size, $bg-position, $bg-attachment);
+ 
+}
+.mapaContacto
+{
+    width: 500px;
+    height: 300px;
+    
+}
+.form
+{
+    .form-label
+    {
+        color: $color-fuente-principal;
+    }
+}
+.btn.btn-info
+        {
+        color:$color-fuente-secundario ;
+        background-color: $color-terciario;
+        border-style: none;
+        font-weight: $font400;
+       
+        
+        &:hover 
+            {
+            color:$color-fuente-principal;
+            background-color: $bg-hover;  
+            border-color:#8e857c;
+            font-weight: $font800;
+            }
+        }
+@media screen  and (max-width:768px)
+{
+    .bgContacto
+    {
+        background-image: url(../assets/img/borde-cactus-sobre-fondo-rosa\ mobile.jpg);
+    }
+    .mapaContacto
+    {
+        width: 300px;
+        height: 300px;
+        margin-left: 30px;
+    }
+}

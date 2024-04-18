@@ -1,0 +1,184 @@
+/* Estilos del Main index*/
+.seccionTitulo
+{
+        height: 85vh;
+        object-fit: cover;
+        padding-left: 30px;
+        padding-top: 100px;
+     
+       .parrafoMain 
+       {
+        
+        line-height:2 ;
+       }   
+       .btn.btn-primary        
+        {
+        background-color:$color-terciario ;
+        border-color: #d1bdaa;
+        &:hover 
+        {
+        color:$color-fuente-secundario;
+        background-color: $bg-hover;
+        border-color:#8e857c;
+        font-weight: $font500;
+        }
+    }
+}
+       
+.bgFotoMain
+{
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.537)), url(../assets/img/gato-helecho1200.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+    .consejosIndex
+    {
+        .card-img-top
+        {
+        width: 100%;
+        height: 50%;
+        object-fit: $bg-size;
+        overflow: hidden;
+        transition:transform 1s ease-in-out; 
+        &:hover
+        {
+            transform: scale(0.9);
+        }
+
+        }
+
+        .btn.btn-primary        
+        {
+        width: 45%;
+        background-color:$color-terciario ;
+        border-color: #d1bdaa;
+        
+            &:hover 
+            {
+            color: $color-fuente-secundario;
+            background-color: $bg-hover;
+            font-weight: $font500;
+            }
+        }  
+    } 
+
+.tituloSeccionTarjetasIndex
+{
+    color: $color-fuente-secundario;
+    background-image: $bg-tarjetas;
+}
+
+
+
+.seccionTarjetasIndex
+{
+  
+
+    .bgTarjeta
+    {
+    background-image: radial-gradient(circle, #767496, #7f7eaf, #8889c9, #8f94e4, #969fff);
+    color:$color-fuente-secundario;
+    border: none;
+        .card-img-top
+        {
+            width: 100%;
+            height: 80%;
+            object-fit: $bg-size;
+            overflow: hidden;
+            transition:transform 1s ease-in-out; 
+            &:hover
+            {
+                transform: scale(0.9);
+            }
+    
+        }
+    }
+    .card-text
+    {
+    color:$color-fuente-secundario;
+    font-weight: $font600;
+    }
+}
+ /*vista mobile*/
+.carousel-item
+  {
+    height: 80vh;
+}
+.carousel-item img
+{
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+.tituloProducto
+{
+color: $color-fuente-secundario;
+background-color:$color-terciario;
+border-radius: $border5;
+font-size: 1.5rem;
+font-weight: $font600;
+
+}
+
+.tituloSeccionTarjetasIndexMobile
+{
+    color:$color-fuente-secundario;
+    background-image: $bg-tarjetas;
+}
+
+
+
+.resenaIndex
+{
+    .card
+    {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        border: none;
+        
+       
+        .card-img-top
+        {
+            width: 60%;
+            height: 60%;
+            object-fit: cover;
+            
+        }
+    }
+    .card-footer
+    {
+        border: none;
+ 
+    }
+}
+
+
+/* media query main*/
+@media screen  and (max-width:768px) 
+{
+    .seccionTitulo
+    {
+        height: 50vh;
+        object-fit: cover;
+        padding-top: 30px;      
+       
+    }  
+    .bgFotoMain
+{
+ 
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.537)), url(../assets/img/gato-helecho\ \(600\).jpg);
+
+}
+
+        .btn-primary        
+        {
+        margin-left: 120px; 
+        margin-top: 20px;      
+        }
+    }

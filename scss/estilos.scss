@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import "variables";
+<<<<<<< HEAD
 @import "reset";
 @import "utilitarias";
 @import "header";
+=======
+@import "mixin";
+@import "reset";
+@import "utilitarias";
+@import "header";
+@import "mainindex";
+@import "maincontacto";
+@import "mainconsejos";
+@import "mainnosotros";
+@import "maingaleria";
+>>>>>>> feature/preEntrega3
 @import "footer";
 
 
 
 
 
+<<<<<<< HEAD
 
 /* Estilos del Main*/
 .seccionTitulo
@@ -132,10 +145,17 @@ font-weight: 700;
         }
     }
 }
+=======
+  
+
+
+
+>>>>>>> feature/preEntrega3
 
 
    
 
+<<<<<<< HEAD
 /*Main Consejos*/
 .mainConsejos.bgFotoConsejos
 {
@@ -237,4 +257,8 @@ font-weight: 700;
             border-color:#8e857c;
             font-weight: 500;
             }
+=======
+
+
+>>>>>>> feature/preEntrega3
 

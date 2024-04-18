@@ -1,0 +1,55 @@
+
+/*Estilo Main Nosotros*/
+.mainNosotros.bgFotoNosotros
+{
+    width: 100%;
+    background-image:$bg-image-nosotros ;   
+    background-size: $bg-size;
+    background-position: $bg-position;
+    background-attachment: $bg-attachment;
+    
+    .imgNosotros
+    {
+        width: 100%;
+        object-fit: $bg-size;
+        overflow: hidden;
+        transition:transform 1s ease-in-out; 
+        &:hover
+        {
+            transform: scale(0.9);
+        }
+
+    }
+.historiaNosotros
+    {
+    background-color: #dfd8d0f2;
+    border-radius: 10px;
+    }
+.videoNosotros{
+    width: 750px;
+    height: 400px;  
+    object-fit: $bg-size;
+    overflow: hidden;
+    transition:transform 1s ease-in-out; 
+    &:hover
+    {
+        transform: scale(0.9);
+    }
+    }      
+}
+
+/*Media Query Main Nosotros*/
+@media screen  and (max-width:768px)
+{
+    .mainNosotros.bgFotoNosotros
+    {
+        background-image: url(../assets/img/fondo\ monstera\ mobile.jpg);
+    .videoNosotros
+        {
+        width:200px ;
+        height: 200px;
+        align-content: center;
+        }  
+    } 
+}
+ 
